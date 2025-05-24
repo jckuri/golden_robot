@@ -4,13 +4,13 @@ Go to the directory:
 
 [Linux/](Linux/)
 
-Execute the file: `SilverRobot.x86_64`
+Execute the file: `GoldenRobot.x86_64`
 
 # Windows Built
 
 Go to the directory:
 
-[Windows/SilverRobot/](Windows/SilverRobot/)
+[Windows/GoldenRobot/](Windows/GoldenRobot/)
 
 Execute the file: `Unity.exe`
 
@@ -20,4 +20,4 @@ Go to the directory:
 
 [Mac/](Mac/)
 
-Execute the App: `SilverRobot.app`
+Execute the App: `GoldenRobot.app`
