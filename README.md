@@ -1,6 +1,6 @@
-# Silver Robot
+# Golden Robot
 
-## Game Design Document
+**How I fixed the 3 rubric items I failed: [3_problems_fixed.md](3_problems_fixed.md)**
 
 **DOWNLOAD: [GameDesignDocument.pdf](./GameDesignDocument.pdf)**
 
@@ -11,6 +11,8 @@
 **Builts for Linux, Windows, and Mac: [https://github.com/jckuri/golden_robot/tree/main/GoldenRobot/BUILD](./GoldenRobot/BUILD/)**
 
 **IMPORTANT NOTE: I added the full directories `GoldenRobot/Library/` and `GoldenRobot/Assets/Shared` to the file `.gitignore` in order to significantly reduce the size of this GitHub repository.**
+
+## Game Design Document
 
 A GDD (game design document) is a highly descriptive, living document of the design of a video game. It helps to define the game details and features you intend for your game.
 
@@ -37,7 +39,7 @@ Motion parallax has 3 layers:
 
 **Midground layer**
 
-The midground layer contains all the blocks, coins, the crate, and the initial position of silver robot. It has the structure of the video game.
+The midground layer contains all the blocks, coins, the crate, and the initial position of golden robot. It has the structure of the video game.
 
 <img src="images/tilemap.png"/>
 
@@ -49,11 +51,11 @@ The cloud layer has fully transparent pixels, partially transparent pixels, and 
 
 **Background layer**
 
-The background is simple and futuristic like silver robot.
+The background is simple and futuristic like golden robot.
 
 <img src="images/background.png"/>
 
-The game has blocks, fires, coins, a crate, and the player Silver Robot.
+The game has blocks, fires, coins, a crate, and the player Golden Robot.
 
 The UI has 3 elements:
 
@@ -75,14 +77,18 @@ This section describes the game’s story, environment, characters, etc.
 
 **2. What is the storyline or narrative of your game?**
 
-Silver Robot is a 2D Platformer Game whose objective is to collect 14 coins while avoiding the
+Golden Robot is a 2D Platformer Game whose objective is to collect 14 coins while avoiding the
 fires. This video game is simple and straightforward. Even novice players can win the video
 game in less than 1 minute.
+
+Golden Robot has to collect gold coins in order to fix its body parts made of gold. 
+Fires can actually damage electronics. Only in movies, robots are bullet-proof and fire-proof.
+Blocks and the crate are made of silver.
 
 
 **3. What are the main characters and objects in your game, and what roles do they play in the story and gameplay?**
 
-The main character is Silver Robot who has to avoid the fires and collect all the 14 coins in
+The main character is Golden Robot who has to avoid the fires and collect all the 14 coins in
 order to win the video game. Correctly using the crate in the game is mandatory. Otherwise you
 won’t be able to collect some coins. The video game has many blocks which create the
 structure of the virtual world.
@@ -119,7 +125,7 @@ Rotating Coin<br/>
 https://opengameart.org/content/rotating-coin <br/>
 (These are the sprites for the coins.)
 
-I drew pixel by pixel the sprites for the silver robot, the fires, the blocks, and the crate. And that’s why they are very simplistic and imperfect. It’s my own honest work.
+I drew pixel by pixel the sprites for the golden robot, the fires, the blocks, and the crate. And that’s why they are very simplistic and imperfect. It’s my own honest work.
 
 
 ### Game Mechanics
@@ -128,13 +134,13 @@ This section includes the core gameplay mechanics, input controls, and how the p
 
 **4. What is the complete list of input actions that the player can perform, and how do these actions impact the game world?**
 
-Silver Robot can move with the left arrow and the right arrow. Silver Robot can jump with the up
-arrow. Silver Robot can push the crate by walking toward it.
+Golden Robot can move with the left arrow and the right arrow. Golden Robot can jump with the up
+arrow. Golden Robot can push the crate by walking toward it.
 
 
 **5. What is the typical gameplay loop (repeated actions) for the player?**
 
-Silver Robot has to avoid the fires and collect all the 14 coins in order to win the video game. If
+Golden Robot has to avoid the fires and collect all the 14 coins in order to win the video game. If
 the robot touches one of the fires, the game is over. Correctly using the crate in the game is
 mandatory. Otherwise you won’t be able to collect some coins.
 
